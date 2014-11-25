@@ -1,12 +1,5 @@
 
 require "pry"
-class GamePiece
-  attr_accessor :type
-
-  def initialize(type)
-    self.type = type
-  end
-end
 
 class Player
   attr_accessor :name, :player_choice
